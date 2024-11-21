@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+</head>
+
+<body>
+    <h2 style="text-align: center">
+        Create...
+    </h2>
+    <div class="book-wrapper">
+        <div class="book-content">
+            <form method="post" action="/addPro">
+                <label for="">
+                    Product name
+                </label>
+                <br>
+                <input type="text" name="name" placeholder="Enter Product name">
+                <br>
+                <label for="">
+                    Product rating
+                </label>
+                <br>
+                <input type="number" name="rating" placeholder="Enter Product rating">
+                <br>
+                <label for="">
+                    Product category
+                </label>
+                <br>
+                <input type="text" name="category" placeholder="Enter Product category">
+                <br>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

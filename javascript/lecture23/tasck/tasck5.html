@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="v"></h2>
+    <script>
+        var n = [-23,-20,-17, -12, -5, 0, 1, 5, 12, 19, 20];
+        var p = n.filter(n => n >= 0);
+        document.getElementById("v").innerHTML = "Negative values is :- "+p.join('@');
+    </script>
+</body>
+</html>

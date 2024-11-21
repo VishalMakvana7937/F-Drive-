@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="v1"></h2>
+    <h2 id="v2"></h2>
+    <h2 id="v3"></h2>
+    <h2 id="v4"></h2>
+    <script>
+        const numbers = [23,20,17, 12,5, 0, 1, 5, 12, 19, 20];
+
+        const ascendingOrder = numbers.slice().sort((a, b) => a - b);
+        document.getElementById("v1").innerHTML = "Ascending order is :- "+ascendingOrder;
+        console.log("Ascending order:", ascendingOrder);
+        
+        const descendingOrder = numbers.slice().sort((a, b) => b - a);
+        document.getElementById("v2").innerHTML = "Descending order is :- "+descendingOrder;
+        console.log("Descending order:", descendingOrder);
+
+        const myColor = ["Red", "Green", "White", "Black"];
+        const ascendingStrings = myColor.slice().sort();
+        document.getElementById("v3").innerHTML = "Ascending order is :- "+ascendingStrings;
+        console.log("Ascending order (strings):", ascendingStrings);
+
+        const descendingStrings = myColor.slice().sort().reverse();
+        document.getElementById("v4").innerHTML = "Descending order is :- "+descendingStrings;
+        console.log("Descending order (strings):", descendingStrings);
+    </script>
+</body>
+</html>

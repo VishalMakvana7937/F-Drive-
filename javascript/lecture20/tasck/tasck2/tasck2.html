@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>circle</title>
+</head>
+<body>
+    <input type="text" id="v1">
+    <input type="button" value="button" onclick="return room()">
+    <h3 id="values"></h3>
+    <script>
+        function circle(){
+            var radius = document.getElementById("v1").value;
+            var pi = 3.14159;
+            var ans = pi * radius * radius;
+            return ans;
+        }
+        function room(){
+            var p = circle();
+            document.getElementById("values").innerHTML = "circle area is :- "+p;
+            console.log(p);
+        }
+    </script>
+</body>
+</html>

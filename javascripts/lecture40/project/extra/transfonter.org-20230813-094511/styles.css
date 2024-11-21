@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Nanum Pen';
+    src: url('NanumPen.woff2') format('woff2'),
+        url('NanumPen.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

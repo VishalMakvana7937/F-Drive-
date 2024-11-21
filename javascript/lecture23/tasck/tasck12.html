@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="ans">
+    <input type="button" value="button" onclick="return l()">
+    <h3 id="v1"></h3>
+    <h3 id="v2"></h3>
+    <script>
+        function l(){
+            var name = document.getElementById("ans").value;
+            var c = name.length;
+            console.log("Characters is " + name);
+            document.getElementById("v1").innerHTML = "characters is " + name;
+            console.log("number of characters: " + c);
+            document.getElementById("v2").innerHTML = "number of characters : " + c;
+        }
+    </script>
+</body>
+</html>

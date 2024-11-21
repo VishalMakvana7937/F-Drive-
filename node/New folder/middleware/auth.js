@@ -1,0 +1,23 @@
+import dotenv from 'dotenv';
+dotenv.config();
+import jwt from 'jsonwebtoken';
+
+export const auth = (req, res, next) => {
+
+    let token = req.headers.authorization;
+    console.log("token1", token);
+
+    if (!token) {
+        return res.json({ msg: "Token is missing" });
+    }
+    
+    try {
+        let user = jwt.verify(token.split(' ')[1], process.env.SECRET_KEY);
+        console.log("user", user);
+        req.userID = user.id;
+        next();
+    } catch (error) {
+        return res.status(401).json({ error: "Invalid token" });
+    }
+
+}

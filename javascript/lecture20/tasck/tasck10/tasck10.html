@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="v1">
+    <input type="text" id="v2">
+    <input type="button" value="button" onclick="return va()">
+    <h3 id="values1"></h3>
+    <h3 id="values2"></h3>
+    <script>
+        function va(){
+            var a = document.getElementById("v1").value;
+            var b = document.getElementById("v2").value;
+
+            a = a + b;
+            b = a - b;
+            a = a - b;
+
+            document.getElementById("values1").innerHTML = a;
+            console.log(a);
+            document.getElementById("values2").innerHTML = b;
+            console.log(b);
+        }
+        va();
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="v"></h2>
+    <script>
+        const array = ['c','c++','java','html','css'];
+        const value = array.includes('html');
+        if(value) {
+            console.log('Value is found...');
+            document.getElementById("v").innerHTML = "Value is found...";
+        } else {
+            console.log('Value is not found...');
+            document.getElementById("v").innerHTML = "Value is not found...";
+        }
+    </script>
+</body>
+</html>

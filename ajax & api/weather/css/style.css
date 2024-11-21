@@ -1,0 +1,25 @@
+.wind-1{
+    width: 200px;
+    height: 200px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50% 50%;
+    margin-top: 10px;
+}
+.wind-2{
+    width: 150px;
+    height: 150px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50% 50%;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="v1">
+    <input type="button" value="button" onclick="return room()">
+    <h3 id="values"></h3>
+    <script>
+        function fahrenheit(){
+            var fahrenheit = document.getElementById("v1").value;
+            var ans = (fahrenheit - 32) / 1.8;
+            return ans;
+        } 
+        function room(){
+            var o = fahrenheit();
+            document.getElementById("values").innerHTML = "Fahrenheit to Celsius is :- "+o;
+            console.log(o);
+        }
+    </script>
+</body>
+</html>

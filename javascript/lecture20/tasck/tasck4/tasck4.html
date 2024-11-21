@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="v1">
+    <input type="text" id="v2">
+    <input type="button" value="button" onclick="return room()">
+    <h3 id="values"></h3>
+    <script>
+        function rectangle(){
+            var length = document.getElementById("v1").value;
+            var width = document.getElementById("v2").value;
+            var ans = length * width;
+            return ans;
+        }
+        function room(){
+            var p = rectangle();
+            document.getElementById("values").innerHTML = "rectangle area is :- "+p;
+            console.log(p);
+        }
+    </script>
+</body>
+</html>

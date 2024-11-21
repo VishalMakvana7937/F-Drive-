@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Enter the A number</h3>
+    <input type="text" id="v1">
+    <h3>Enter the B number</h3>
+    <input type="text" id="v2">
+    <h3>Enter the C number</h3>
+    <input type="text" id="v3">
+    <h3>click button</h3>
+    <input type="button" value="button" onclick="return room()">
+    <h3 id="values"></h3>
+    <script>
+        function numb(){
+            var a = document.getElementById("v1").value;
+            var b = document.getElementById("v2").value;
+            var c = document.getElementById("v3").value;
+            var ans = ((b * b) - (4 * a * c)) / (2 * a); 
+            return ans;
+        }
+        function room(){
+            var s = numb();
+            console.log(s);
+            document.getElementById("values").innerHTML = "The number of : - "+s;
+        }
+    </script>
+</body>
+</html>

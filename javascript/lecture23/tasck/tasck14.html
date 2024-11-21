@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="v1"></h2>
+    <h2 id="v2"></h2>
+    <h2 id="v3"></h2>
+    <script>
+        var x = "Hire the top 1% freelance developers";
+        console.log(x);
+        document.getElementById("v1").innerHTML = x;
+        var y = x.slice(0,15);
+        console.log(y);
+        document.getElementById("v2").innerHTML = y;
+        var p = y.split(" ");
+        console.log(p);
+        document.getElementById("v3").innerHTML = p;
+    </script>
+</body>
+</html>

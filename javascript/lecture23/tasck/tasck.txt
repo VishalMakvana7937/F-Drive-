@@ -1,0 +1,63 @@
+1 Write a simple JavaScript program to print expected Output using following array.
+
+Sample array : myColor = ["Red", "Green", "White", "Black"];
+Red,Green,White,Black
+Red+Green+White+Black
+Red,Green,White
+Red
+Green,White
+Red,Green,White,Black,orange 
+2.Write a JavaScript program to get sum of all array element using for loop and foreach loop.
+
+
+3.Write a JavaScript program to print a maximum and minimum value of given array.(using function and logic)
+
+
+4.Write a JavaScript program for convert all array element in ASCII value.
+
+5.Write a JavaScript program for remove negative values using the filter array function.
+numbers = [-23,-20,-17, -12, -5, 0, 1, 5, 12, 19, 20];
+
+6. Write a JavaScript program using array map() method and return the square of array element.
+  arr = [2, 5, 6, 3, 8, 9];
+
+7.Write a JavaScript program for sort array in ascending descending.
+numbers = [23,20,17, 12,5, 0, 1, 5, 12, 19, 20];
+
+myColor = ["Red", "Green", "White", "Black"];
+
+
+8. Write a JavaScript program which filters out any string which is less than 8 characters. 
+
+words = ['Python', 'Javascript', 'Go', 'Java', 'PHP', 'Ruby'];
+
+
+9. write a JavaScript program to  to print expected output for following string.
+x = "airplane";      output:-  r
+x = "oxoxoxox";    output:- "oXoXoXoX"
+x = "A New Java Book";    
+
+ output:-   "a new java book" , "A NEW JAVA BOOK"
+10. write a JavaScript program for array reverse.
+
+
+11. write a JavaScript program for check value is found or not?
+
+
+12. write a JavaScript program for print your name and write the no of total character.
+
+
+13.  write a JavaScript program given this output using  replace concept.
+Input : - "I often take a walk with my dog in the evening. His dog follows him everywhere. I don't feed my dog in the morning";
+Output:-  "I often take a walk with my cat in the evening. His cat follows him everywhere. I don't feed my cat in the morning"
+
+14.  write a JavaScript program convert string to array.
+Input :- "Hire the top 1% freelance developers";
+
+Output :- ["Hire", "the", "top", "1%"] 
+
+
+15. write a JavaScript program convert for array to string.
+Input:- ['5', 32, 'Daniel'];
+
+Output: 5,32,Daniel

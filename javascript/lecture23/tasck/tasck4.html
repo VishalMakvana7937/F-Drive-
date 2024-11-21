@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="ans">
+    <input type="button" value="button" onclick="return code()">
+    <h3 id="v"></h3>
+    <script>
+        function code(){
+            const  a = document.getElementById("ans").value;
+            const result = a.charCodeAt(0);
+            document.getElementById("v").innerHTML = `The ASCII value is: ${result}`;
+        }
+    </script>
+</body>
+</html>

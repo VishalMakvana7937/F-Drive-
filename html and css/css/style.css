@@ -1,0 +1,379 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --Montserrat-font: 'Montserrat';
+    --Lato-font: 'Lato Hairline'
+}
+
+.container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+
+body {
+    overflow-x: hidden !important;
+}
+
+/* EXTERA */
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.a-i-c {
+    align-items: center;
+}
+
+.p-0 {
+    padding: 0px !important;
+}
+
+.m-0 {
+    margin: 0px !important;
+}
+
+.pb-90 {
+    padding-top: 90px;
+}
+
+.j-c-e {
+    justify-content: end;
+}
+
+.j-c-c {
+    justify-content: center;
+}
+
+/* container and row */
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -16px;
+    margin-right: -16px;
+}
+
+/* ---------- and ---------- */
+/* HEADER */
+.h-img img {
+    min-width: auto !important;
+    min-height: auto !important;
+}
+
+#header {
+    background-color: black;
+}
+
+.h-main {
+    height: 70px;
+}
+
+.h-list li .h-home {
+    color: #437cb4;
+}
+
+.h-list li {
+    padding: 12px;
+    font-family: var(--Montserrat-font);
+}
+
+.h-list li a {
+    color: #ffffff;
+    transition: all 0.3s;
+    font-size: 15px;
+}
+
+.h-list li a:hover {
+    color: #437cb4;
+}
+
+.h-icon li {
+    padding-left: 22px;
+}
+
+.h-icon li a {
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.h-main-menu {
+    color: #ffffff;
+}
+
+.h-menu li a {
+    color: #ffffff;
+    font-size: 21px;
+}
+
+/* ---------- and ---------- */
+
+/* GRID SECTION */
+.grid-main {
+    padding: 0px 6px 0px 6px;
+}
+
+.grid-main-contain {
+    background-color: #eef0ef;
+    transition: all 0.4s;
+    padding: 8px 0px 8px 0px;
+}
+
+.grid-main-contain:hover {
+    background-color: #78b5c7;
+    color: #ffffff;
+}
+
+.grid-main {
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.grid-main:hover .grid-contain h3 {
+    color: #ffffff !important;
+}
+
+.grid-img img {
+    width: 100%;
+    height: auto;
+}
+
+.grid-contain h2 {
+    text-transform: uppercase;
+    font-family: var(--Montserrat-font);
+}
+
+.grid-contain h4 {
+    margin-top: 4px;
+    font-family: var(--Lato-font);
+    font-size: 16px;
+}
+
+.grid-contain h3 {
+    font-weight: 900;
+    margin-top: 15px;
+    font-family: var(--Lato-font);
+    color: #437cb4 !important;
+}
+
+/* ---------- and ---------- */
+
+/* NEW ARRIVALS SECTION */
+
+.arrivals-main-contain h2 {
+    font-family: var(--Montserrat-font);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.arrivals-main-contain p {
+    color: #606060;
+    font-style: oblique;
+    line-height: 1.42857143;
+    font-family: var(--Lato-font);
+    font-weight: bold;
+    padding-bottom: 45px;
+    text-align: center;
+}
+
+.arrivals-pro-img img {
+    width: 95%;
+    height: auto;
+}
+
+.arrivals-contain {
+    padding-left: 10px !important;
+}
+
+.arrivals-contain p {
+    text-align: start;
+    margin-top: 14px !important;
+    margin-bottom: 10px;
+    font-family: var(--Lato-font);
+    font-weight: bold;
+}
+
+.arrivals-contain span {
+    font-family: var(--Lato-font);
+    font-weight: bold;
+    color: #78b5c7;
+}
+
+/* ---------- and ---------- */
+
+/* CLEARFIX SECTION */
+
+.clearfix-border {
+    background-image: url(../img/border.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    /* background-color: #606060; */
+}
+
+/* ---------- and ---------- */
+
+/* FEATURED PRODUCTS SECTION */
+
+/* ---------- and ---------- */
+
+/* PURCHASE SECTION */
+.sloganBg {
+    background-image: url(../img/slogan.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 40px;
+    outline: 1px dotted #FFF;
+    outline-offset: -15px;
+}
+
+.sloganBg-contain h2 {
+    font-family: var(--Montserrat-font);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.sloganBg-contain h2 span {
+    font-size: 28px;
+    color: #7986c8;
+    text-transform: uppercase;
+}
+
+.sloganBg-contain P {
+    font-size: 18px;
+    font-family: var(--Montserrat-font);
+}
+
+.sloganBg-button a {
+    border: 1px solid #353535 !important;
+    color: #353535;
+    font-size: 12px;
+    display: inline-block;
+    padding: 12px 30px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    text-transform: uppercase;
+    font-family: var(--Montserrat-font);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* ---------- and ---------- */
+
+/* FROM OUR BLOG SECTION */
+
+/* ---------- and ---------- */
+
+/* EREN LOGOS SECTION */
+
+/* ---------- and ---------- */
+
+/* SIGN UP TO NEWSLETTER SECTION */
+.newsletter {
+    width: 100%;
+    height: 100%;
+    background-position: 50% 36px;
+    background-image: url(../img/newsler.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 90px;
+    margin-top: 90px;
+}
+
+.newsletter-main-contain {
+    text-align: center;
+}
+
+.newsletter-main-contain h2 {
+    font-family: var(--Montserrat-font);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.newsletter-main-contain p {
+    color: #606060;
+    font-style: oblique;
+    line-height: 1.42857143;
+    font-family: var(--Lato-font);
+    font-weight: bold;
+    padding-bottom: 45px;
+}
+
+.newsletter-input input{
+    
+}
+
+/* ---------- and ---------- */
+
+/* space */
+.w-1 {
+    width: 8.33%;
+}
+
+.w-2 {
+    width: 16.66%;
+}
+
+.w-3 {
+    width: 25%;
+}
+
+.w-4 {
+    width: 33.33%;
+}
+
+.w-5 {
+    width: 41.66%;
+}
+
+.w-6 {
+    width: 50%;
+}
+
+.w-7 {
+    width: 58.33%;
+}
+
+.w-8 {
+    width: 66.66%;
+}
+
+.w-9 {
+    width: 75%;
+}
+
+.w-10 {
+    width: 83.33%;
+}
+
+.w-11 {
+    width: 91.66%;
+}
+
+.w-12 {
+    width: 100%;
+}
+
+/* ---------- and ---------- */

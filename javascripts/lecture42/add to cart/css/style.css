@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+/* extra */
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+li{
+    list-style: none;
+} 
+.d-flex{
+    display: flex;
+}
+:root{
+    --font-anton: 'Anton';
+    --font-teko: 'Teko';
+    --font-montserrat: 'Montserrat';
+}
+/* ---------- and ---------- */
+/* container and row */
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+} 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -16px;
+    margin-right: -16px;
+}
+/* ---------- and ---------- */
+/* header */
+.h-m{
+    margin-bottom: 50px;
+}
+.h-c-1 h2{
+    font-family: var(--font-anton);
+    color: #ff5d1d;
+    font-size: 40px;
+    font-weight: 900;
+    padding-left: 8px;
+}
+.h-c-1 h2 span{
+    color: black;
+}
+.h-c-2{
+    display: flex;
+    justify-content: center;
+}
+.c-2{
+    display: flex;
+}
+.c-2 li a{
+    padding-right: 30px;
+    font-size: 23px;
+    color: #ff5d1d;
+    font-family: var(--font-teko);
+}
+.h-c-3{
+    display: flex;
+    /* justify-content: end; */
+}
+.h-c-3 a{
+    font-size: 23px;
+    color: black;
+    padding-left: 49px;
+}   
+/* ---------- and ---------- */
+/* shopping section */
+.shop-c{
+    padding: 0px 8px 0px 8px;
+    height: 500px;
+}
+.shop-c img{
+    width: 269px;
+    height: 350px;
+    border: double 10px;
+    border-radius: 20px;
+}
+.shop-c h2{
+    font-size: 20px;
+    font-family: var(--font-montserrat);
+}
+.shop-c h4{
+    color: #ff5d1d;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.but{
+    width: 150px;
+    background: #ff5d1d;
+    padding: 8px 10px 8px 10px;
+    font-family: var(--font-montserrat);
+    font-weight: bolder;
+    margin: 0;
+    margin-top: 10px;
+    border-radius: 45px 200px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+}
+
+/* card */
+.c-1{
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.c-i{
+    /* width: 220.28; */
+    height: 200px;
+    overflow: hidden;
+    border: double 10px;
+    border-radius: 20px;
+}
+.c-c{
+    display: flex;
+    justify-content: center;
+}
+.c-c h2{
+    width: 90px;
+    height: 70px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    font-size: 30px;
+    font-weight: 900;
+    align-items: center;
+}
+.c-c h2 span{
+    color: #ff5d1d;
+}
+.r-c button{
+    width: 90px;
+    height: 70px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    font-size: 30px;
+    font-weight: 900;
+    align-items: center;
+    color: #ff5d1d;
+    cursor: pointer;
+}
+.c-t{
+    text-align: center;
+    color: #ff5d1d;
+    font-family: var(--font-anton);
+}
+/* ---------- and ---------- */
+/* space */
+.w-1{
+    width: 8.33%;
+}
+.w-2{
+    width: 16.66%;
+}
+.w-3{
+    width: 25%;
+}
+.w-4{
+    width: 33.33%;
+}
+.w-5{
+    width: 41.66%;
+}
+.w-6{
+    width: 50%;
+}
+.w-7{
+    width: 58.33%;
+}
+.w-8{
+    width: 66.66%;
+}
+.w-9{
+    width: 75%;
+}
+.w-10{
+    width: 83.33%;
+}
+.w-11{
+    width: 91.66%;
+}
+.w-12{
+    width: 100%;
+}
+/* ---------- and ---------- */

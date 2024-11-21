@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="v1">
+    <input type="text" id="v2">
+    <input type="button" value="button" onclick="return room()">
+    <h3 id="values"></h3>
+    <script>
+        function triangle(){
+            var base = document.getElementById("v1").value;
+            var hight = document.getElementById("v2").value;
+            area = ((base * hight) / 2);
+            return area;
+        }
+        function room(){
+            var f = triangle();
+            document.getElementById("values").innerHTML = "triangle area is :- "+f;
+            console.log(f);
+        }
+    </script>
+</body>
+</html>

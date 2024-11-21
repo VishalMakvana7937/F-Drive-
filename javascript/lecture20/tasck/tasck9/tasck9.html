@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="v">
+    <input type="button" value="button" onclick="return oe()">
+    <h3 id="values"></h3>
+    <script>
+        function oe(){
+            var number = document.getElementById("v").value;
+            if(number % 2 === 0){
+                document.getElementById("values").innerHTML = "Even number is :- "+number;
+            }else{
+                document.getElementById("values").innerHTML = "Odd number is :- "+number;
+            }
+        }
+        oe();
+    </script>
+</body>
+</html>

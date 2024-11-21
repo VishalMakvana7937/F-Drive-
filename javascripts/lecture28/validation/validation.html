@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        p{
+            color: red;
+        }
+    </style>
+    <form onsubmit="return Form()">
+        <div>
+            <label for="fname">First name</label>
+            <input type="text" id="fname" name="fname">
+            <p id="fnerr"></p>
+        </div>
+        <div>
+            <label for="sname">Second name</label>
+            <input type="text" id="sname" name="sname">
+            <p id="snerr"></p>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
+            <p id="eerr"></p>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+            <p id="perr"></p>
+        </div>
+        <div>
+            <label for="c_pass">Conform Password</label>
+            <input type="password" id="c_pass" name="c_pass">
+            <p id="c_perr"></p>
+        </div>
+        <div>
+            <label for="city">city</label>
+            <input type="text" id="city" name="city">
+            <p id="cerr"></p>
+        </div>
+        <div>
+            <button type="submit">sign in</button>
+        </div>
+    </form>
+    <script src="js/demo.js"></script>
+</body>
+</html>

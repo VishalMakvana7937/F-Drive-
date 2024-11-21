@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="return myForm()">
+        <label for="fname">First name</label>
+        <input type="text" id="fname" name="fname">
+        <br>
+        </br>
+        <label for="lname">Last name</label>
+        <input type="text" id="lname" name="lname">
+        <br>
+        </br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        <br>
+        </br>
+        <label for="age">Age</label>
+        <input type="text" id="age" name="age">
+        <br>
+        </br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+        <br>
+        </br>
+        <label for="country">Country</label>
+        <select id="country">
+            <option value="-1">--- Select Country ---</option>
+            <option value="Canada">Canada</option>
+            <option value="Afghanistan">Afghanistan</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="Australia">Australia</option>
+        </select>
+        <br>
+        </br>
+        <button type="submit">Submit</button>
+        <button type="button" onclick="return removeData()">
+            Remove
+        </button>
+
+        <button type="button" onclick="return editData()">
+            Edit
+        </button>
+    </form>
+
+        
+
+        <table id="table" align="center" cellspacing="5" cellpadding="3" border="2" width="1140px">
+            <tr>
+                <th>fname</th>
+                <th>lname</th>
+                <th>Email</th>
+                <th>Age</th>
+                <th>password</th>
+                <th>Country</th>
+            </tr>
+        </table>
+    </form>
+    <script src="js/demo.js"></script>
+</body>
+</html>

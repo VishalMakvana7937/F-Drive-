@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Ceviche One';
+    src: url('../font/../font/../font/../font/CevicheOne-Regular.woff2') format('woff2'),
+        url('../font/../font/../font/../font/CevicheOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Gujarati';
+    src: url('../font/../font/NotoSansGujarati-Regular.woff2') format('woff2'),
+        url('../font/../font/NotoSansGujarati-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Nanum Pen';
+    src: url('../font/NanumPen.woff2') format('woff2'),
+        url('../font/NanumPen.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,14 @@
+1 . Enter electricity unit and calculate amount to pay
+For first 50 units, Rs: 1/unit
+For next 100 units, 2/unit
+For next 100 units, 3/ units
+For units above 250, 4/units      
+For all bills above 150 units additional surcharge of 20%  of total bill amount is added.
+
+
+2.  Write a JAVASCRIPT Program to print season according user input using switch case. (e.g. 1 to 4 for "Winter", 5 to 8 for "Summer", 9 to 12 "Monsoon" then add any number print "Invalid season" etc.)
+
+3. Write a JAVASCRIPT Program to find rate based on year and calculate total interest using nested if. (I = PRN/100)Principal Amount (P)
+Interest Rate (R)
+No. of Years (N)
+(if 3>N<=5 then R is 3 | if 5>N<=8 then R is 5 | if 8>N<=12 then R is 12 | else R is 15)

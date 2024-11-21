@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        :root{
+            --font-Kanit: 'Kanit';
+        }
+        #con-item{
+            display: none;
+        }
+        .con-item{
+            width: 100%;
+            height: 100vh;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+        }
+        .box{
+            width: 400px;
+            height: 500px;
+            background-image: url(../time/images//01-finished-login-screen.jpg);
+            background-color: rgba(0, 0, 0, 0.1);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            border-radius: 20px;
+            padding: 20px;
+            color: white;
+        }
+        .username input{
+            width: 320px;
+            height: 30px;
+            border-radius: 20px;
+            padding: 10px;
+            border: solid 4px black;
+            margin-bottom: 30px;
+        }
+        .password input{
+            width: 320px;
+            height: 30px;
+            border-radius: 20px;
+            padding: 10px;
+            border: solid 4px black;
+        }
+        .username label{
+            font-size: 20px;
+            font-weight: 500;   
+            font-family: var(--font-Kanit);
+        }
+        .password label{
+            font-size: 20px;
+            font-weight: 500;   
+            font-family: var(--font-Kanit);
+        }
+        form{
+            margin-left: 22px;
+            margin-top: 130px;
+        }
+        .button button{
+            width: 80px;
+            height: 30px;
+            background-color: blue;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+    <div class="con-item" >
+        <div class="box" id="con-item">
+            <form>
+                <div class="username">
+                    <label for="name">USERNAME</label>
+                    <br>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="password">
+                    <label for="name">password</label>
+                    <br>
+                    <input type="password" id="password" name="name">
+                </div>
+                <div class="button">
+                    <button type="button">sign in</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="js/demo.js"></script>
+</body>
+</html>

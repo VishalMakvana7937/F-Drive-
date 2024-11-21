@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root{
+    --font--ceviche: 'Ceviche One';
+    --font--noto: 'Noto Sans Gujarati';
+    --font--nanum: 'Nanum Pen';
+}
+
+.display-f{
+    display: flex;
+}
+
+.contan{
+    width: 1140px;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+} 
+.ro{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -16px;
+    margin-right: -16px;
+}
+
+.co-m{
+    height: 760px;
+    padding-right: 10px;
+} 
+.co-m img{
+    width: 275px;
+    height: 250px;
+}
+.co-c h4{
+    color: #fabf71;
+    padding-top: 6px;
+    font-family: var(--font--ceviche);
+}
+
+.co-c p{
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: var(--font--noto);
+}
+
+.co-c h2{
+    font-weight: 600;
+    font-family: var(--font--nanum);
+}
+.co-c .dis{
+    font-size: 20px;
+    font-family: none;
+}
+.co-c h6{
+    font-size: 20px;
+    border: 0px solid;
+}
+
+.co-c a{
+    background-color: black;
+    color: white;
+}
+
+/* space */
+.w-1{
+    width: 8.33%;
+}
+.w-2{
+    width: 16.66%;
+}
+.w-3{
+    width: 25%;
+}
+.w-4{
+    width: 33.33%;
+}
+.w-5{
+    width: 41.66%;
+}
+.w-6{
+    width: 50%;
+}
+.w-7{
+    width: 58.33%;
+}
+.w-8{
+    width: 66.66%;
+}
+.w-9{
+    width: 75%;
+}
+.w-10{
+    width: 83.33%;
+}
+.w-11{
+    width: 91.66%;
+}
+.w-12{
+    width: 100%;
+}
+/* ---------- and ---------- */
